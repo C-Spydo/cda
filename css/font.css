@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { 
+   font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 

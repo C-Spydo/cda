@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1200px) {
+	.container {
+	width:70%;
+	background: url(../img/bg.png);
+	margin-top:4%;
+		
+	}
+	.header h3 {
+		font-size:18px;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.container {
+	width:80%;
+	background: url(../img/bg.png);
+	
+		
+	}
+	.header h3 {
+		font-size:18px;
+	}
+	
+}
+
+@media screen and (max-width:720px) {
+	.container {
+	width:85%;
+	background: url(../img/bg.png);
+	margin-top:6%;
+		
+	}
+	.header h3 {
+		font-size:16px;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.container {
+	width:95%;
+	background: url(../img/bg.png);
+
+		
+	}
+	.header h3 {
+		font-size:14px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.container {
+	width:100%;
+	background: url(../img/bg.png);
+	margin-top:10%;
+
+		
+	}
+	.header h3 {
+		font-size:12px;
+	}
+}

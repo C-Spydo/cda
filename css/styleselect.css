@@ -1,0 +1,135 @@
+
+a {
+	text-decoration:none;
+}
+
+.trigger_demo2 {
+	height:30px ;
+	padding:10px;
+	margin-left:10px;
+	width:90%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666;
+	border:0px;
+	font-size: 16px;
+	background:rgba(255,255,255,.8) url(../img/select-arrow-open.png) 98% center no-repeat;
+	display: block;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	text-decoration:none;
+	}
+
+.trigger_demo2:hover {
+	height:30px ;
+	color: #666;
+	font-size: 16px;
+	text-decoration:none;
+	background: #f5f5f5 url(../img/select-arrow-open.png)98% center no-repeat;
+	}
+
+.activetrigger_demo2 {
+	color: #666;
+	padding: 10px;
+	font-size: 16px;
+	margin-left:10px;
+	
+	width: 90%;
+	height:30px ;
+	background: rgba(255,255,255,.8) url(../img/select-arrow-close.png) 98% center no-repeat;
+	display: block;
+	border: 1px solid #ccc;
+	text-decoration:none;
+	
+	}
+
+.activetrigger_demo2:hover {
+	background: rgba(255,255,255,.8) url(../img/select-arrow-close.png) 98% center no-repeat;
+	color: #666;
+	width: 90%;
+	padding: 10px;
+	height:30px ;
+	text-decoration:none;
+	}
+
+.activetrigger_demo2:active {
+	background: rgba(255,255,255,.8) url(../img/select-arrow-close.png) 98% center no-repeat;
+	font-size: 16px;
+	color: #666;
+	width: 90%;
+	padding: 10px;
+	height:30px ;
+	text-decoration:none;
+	}
+
+.dropcontainer_demo2 ul {
+	font-size: 14px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background:rgba(255,255,255,.8);
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	margin-left:10px;
+	color: #666;
+	width: 90%;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	
+	}
+
+.dropcontainer_demo2 ul li {
+	padding:0;
+	color: #666;
+	height:15px;
+	padding-top:5px;
+	padding-bottom:5px;
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; 
+	transition: all 0.5s ease;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	max-height:100px;
+	font-size:14px;
+	}
+
+.dropcontainer_demo2 ul li:hover {
+	background: #f5f5f5;
+	color: #666;
+	outline: none;
+	text-decoration:none;
+	}
+
+.dropcontainer_demo2 ul li:first-child {
+	display: none;
+	color: #666;
+	}
+
+.dropcontainer_demo2 ul li:last-child {
+	border-bottom: none;
+	color: #666;
+	}
+
+.dropdownhidden_demo2 {
+	display: none;
+	color: #666;
+	text-decoration:none;
+	}
+
+.dropdownvisible_demo2 {
+	height: auto;
+	max-height:100px;
+	color: #666;
+	text-decoration:none;
+	}
+
+.dropdownvisible_demo2 {
+	height:auto;
+	max-height:100px;
+	color: #666;
+	overflow-y: auto;
+	text-decoration:none;
+	}
